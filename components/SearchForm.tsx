@@ -3,7 +3,7 @@ import { Calendar, MapPin, Package, DollarSign, Search } from "lucide-react";
 
 const SearchForm = () => {
     return (
-        <div className="w-full max-w-3xl mx-auto bg-white rounded-xl shadow-2xl px-6 py-5">
+        <div className="w-full max-w-4xl mx-auto bg-white rounded-xl lg:rounded-full shadow-2xl px-8 py-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1fr_auto] gap-4 items-end">
                 {/* Flight Date */}
                 <div className="flex flex-col gap-1">
@@ -58,8 +58,8 @@ const SearchForm = () => {
                 </div>
 
                 {/* Search Button */}
-                <button className="w-10 h-10 rounded-full bg-yellow-400 flex items-center justify-center hover:bg-yellow-400 transition-colors shrink-0 self-center lg:self-end">
-                    <Search size={18} className="text-primary-foreground" />
+                <button className="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center hover:bg-yellow-400 transition-colors shrink-0 self-center lg:self-end">
+                    <Search size={20} className="text-primary-foreground" />
                 </button>
             </div>
         </div>
