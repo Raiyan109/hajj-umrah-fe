@@ -26,7 +26,7 @@ const HeroSection = () => {
                     DELUX UMRAH PACKAGES STARTED FROM
                     <span className="text-primary font-bold"> BDT 3235</span>
                 </p>
-                <button className="mt-8 px-8 py-3 bg-primary text-primary-foreground font-semibold text-sm rounded-full hover:bg-yellow-400 transition-colors">
+                <button className="mt-8 px-8 py-3 bg-yellow-400 text-primary-foreground font-semibold text-sm rounded-full hover:bg-yellow-400 transition-colors">
                     Get Started
                 </button>
             </div>
