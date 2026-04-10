@@ -52,7 +52,7 @@ export default function Footer() {
                     ))}
 
                     {/* Gallery */}
-                    <div>
+                    {/* <div>
                         <h4 className="text-white font-semibold text-sm mb-3">Gallery</h4>
                         <div className="grid grid-cols-3 gap-1.5">
                             {[1, 2, 3, 4, 5, 6].map((n) => (
@@ -64,7 +64,7 @@ export default function Footer() {
                                 </div>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Bottom bar */}
