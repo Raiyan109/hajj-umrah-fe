@@ -97,7 +97,7 @@ export default function About() {
                             بسم الله الرحمن الرحيم
                         </div>
 
-                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 leading-tight">
+                        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3 leading-tight">
                             We are award winning<br />
                             <span className="text-gray-800">Hajj & Umrah Agency</span>
                         </h2>
