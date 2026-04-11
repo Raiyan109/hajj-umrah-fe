@@ -19,7 +19,7 @@ export default function Footer() {
                             </div>
                             <span className="text-white font-semibold">Fingah_Travel</span>
                         </div>
-                        <p className="text-xs text-gray-500 leading-relaxed mb-4">
+                        <p className="text-sm text-gray-500 leading-relaxed mb-4">
                             Providing Affordable Religious Solutions to Unique Destinations and Improve Spiritual Experiences.
                         </p>
                         <div className="flex gap-3">
@@ -38,11 +38,11 @@ export default function Footer() {
                     {/* Links */}
                     {Object.entries(footerLinks).map(([heading, links]) => (
                         <div key={heading}>
-                            <h4 className="text-white font-semibold text-sm mb-3">{heading}</h4>
+                            <h4 className="text-white font-semibold text-lg mb-3">{heading}</h4>
                             <ul className="space-y-2">
                                 {links.map((link) => (
                                     <li key={link}>
-                                        <a href="#" className="text-gray-500 text-xs hover:text-yellow-400 transition-colors">
+                                        <a href="#" className="text-gray-500 text-sm hover:text-yellow-400 transition-colors">
                                             {link}
                                         </a>
                                     </li>
@@ -69,12 +69,12 @@ export default function Footer() {
 
                 {/* Bottom bar */}
                 <div className="border-t border-gray-800 pt-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-                    <p className="text-gray-600 text-xs">© Copyright Fingah travel all right reserved</p>
+                    <p className="text-gray-600 text-sm">© Copyright Fingah travel all right reserved</p>
                     <div className="flex items-center gap-4">
-                        <span className="text-gray-600 text-xs">we accept the following payment methods</span>
+                        <span className="text-gray-600 text-sm">we accept the following payment methods</span>
                         <div className="flex gap-2">
                             {["VISA", "MC", "PayPal"].map((p) => (
-                                <span key={p} className="bg-gray-800 text-gray-400 text-xs px-2 py-0.5 rounded font-semibold">
+                                <span key={p} className="bg-gray-800 text-gray-400 text-sm px-2 py-0.5 rounded font-semibold">
                                     {p}
                                 </span>
                             ))}

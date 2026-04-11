@@ -53,9 +53,9 @@ export default function Packages() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-3"
                 >
-                    <h2 className="text-2xl md:text-4xl font-bold text-gray-900">Choose Your Package</h2>
-                    <p className="text-gray-500 text-sm mt-2 max-w-md mx-auto">
-                        Select from amazing plan below, amazing, customized or best deals 1.
+                    <h2 className="text-2xl md:text-5xl font-bold text-gray-900">Choose Your Package</h2>
+                    <p className="text-gray-500 text-md mt-2 max-w-md mx-auto">
+                        Select from amazing plan below, amazing, customized or best deals.
                         Customize your subscription for a purpose to.
                     </p>
                 </motion.div>
@@ -75,7 +75,7 @@ export default function Packages() {
                         >
                             {/* Tag */}
                             <div
-                                className={`absolute top-4 right-4 text-xs font-semibold px-2 py-0.5 rounded ${pkg.highlight
+                                className={`absolute top-4 right-4 text-sm font-semibold px-2 py-1 rounded ${pkg.highlight
                                     ? "bg-black text-yellow-400"
                                     : "bg-yellow-400 text-black"
                                     }`}
@@ -83,18 +83,18 @@ export default function Packages() {
                                 {pkg.tag}
                             </div>
 
-                            <p className={`text-sm font-semibold mb-1 ${pkg.highlight ? "text-black/70" : "text-gray-500"}`}>
+                            <p className={`text-md font-semibold mb-1 ${pkg.highlight ? "text-black/70" : "text-gray-500"}`}>
                                 {pkg.label}
                             </p>
-                            <h3 className="text-3xl font-black mb-4">{pkg.price}</h3>
+                            <h3 className="text-4xl font-black mb-6">{pkg.price}</h3>
 
-                            <p className={`text-xs font-semibold mb-3 ${pkg.highlight ? "text-black/60" : "text-gray-500"}`}>
+                            <p className={`text-md font-semibold mb-6 ${pkg.highlight ? "text-black/60" : "text-gray-500"}`}>
                                 What's included
                             </p>
 
-                            <ul className="space-y-2 mb-6">
+                            <ul className="space-y-2 mb-10">
                                 {pkg.items.map((item) => (
-                                    <li key={item} className="flex items-center gap-2 text-sm">
+                                    <li key={item} className="flex items-center gap-2 text-md">
                                         <svg
                                             className={`w-4 h-4 flex-shrink-0 ${pkg.highlight ? "text-black" : "text-yellow-500"}`}
                                             fill="none"
@@ -116,7 +116,7 @@ export default function Packages() {
                             <motion.button
                                 whileHover={{ scale: 1.04 }}
                                 whileTap={{ scale: 0.97 }}
-                                className={`w-full py-2.5 mt-4 rounded-full text-sm font-bold transition-colors ${pkg.highlight
+                                className={`w-full py-2.5 rounded-full text-md font-bold transition-colors ${pkg.highlight
                                     ? "bg-black text-white hover:bg-gray-900"
                                     : "bg-yellow-400 text-black hover:bg-yellow-300"
                                     }`}

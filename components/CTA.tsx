@@ -14,7 +14,7 @@ export default function CTA() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-2xl md:text-4xl font-bold text-white mb-3"
+                    className="text-2xl md:text-5xl font-bold text-white mb-3"
                 >
                     Are you Ready ?
                 </motion.h2>
@@ -23,7 +23,7 @@ export default function CTA() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
-                    className="text-gray-400 text-sm max-w-sm mx-auto mb-6"
+                    className="text-gray-400 text-lg max-w-md mx-auto mb-6"
                 >
                     Select from amazing plan below, amazing customized or best deals 1. Customize your subscription for a purpose to.
                 </motion.p>
@@ -35,10 +35,10 @@ export default function CTA() {
                     transition={{ delay: 0.2 }}
                     className="flex flex-wrap gap-3 justify-center"
                 >
-                    <button className="bg-yellow-400 text-black font-bold px-7 py-2.5 rounded text-sm hover:bg-yellow-300 transition-colors">
+                    <button className="bg-yellow-400 text-black font-bold px-7 py-2.5 rounded text-lg hover:bg-yellow-300 transition-colors">
                         Hajj Pre Registration
                     </button>
-                    <button className="border border-yellow-400 text-yellow-400 font-bold px-7 py-2.5 rounded text-sm hover:bg-yellow-400 hover:text-black transition-colors">
+                    <button className="border border-yellow-400 text-yellow-400 font-bold px-7 py-2.5 rounded text-lg hover:bg-yellow-400 hover:text-black transition-colors">
                         Get VIP Package
                     </button>
                 </motion.div>

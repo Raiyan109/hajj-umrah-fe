@@ -28,7 +28,7 @@ export default function About() {
                         <div className="relative">
                             {/* Main card with "MADINAH" label */}
                             <div className="relative bg-gray-800 rounded-xl overflow-hidden shadow-xl"
-                                style={{ height: 340 }}>
+                                style={{ height: 400 }}>
                                 {/* Background gradient representing Madinah mosque */}
                                 {/* <div
                                     className="absolute inset-0"
@@ -47,7 +47,7 @@ export default function About() {
                                     src="/madina.png"
                                     alt=""
                                     width={1920}
-                                    height={1080}
+                                    height={1180}
                                     className="w-full h-full object-cover"
                                 />
 
@@ -93,16 +93,16 @@ export default function About() {
                         className="w-full lg:w-3/5"
                     >
                         {/* Arabic calligraphy decoration */}
-                        <div className=" text-lg mb-2" style={{ fontFamily: "'Tajawal', sans-serif" }}>
+                        {/* <div className=" text-lg mb-2" style={{ fontFamily: "'Tajawal', sans-serif" }}>
                             بسم الله الرحمن الرحيم
-                        </div>
+                        </div> */}
 
-                        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3 leading-tight">
+                        <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-3 leading-tight">
                             We are award winning<br />
                             <span className="text-gray-800">Hajj & Umrah Agency</span>
                         </h2>
 
-                        <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-md">
+                        <p className="text-gray-500 text-md leading-relaxed mb-6 max-w-md">
                             Since we have services available in knowledgeable, was charged to provide
                             care and comfort in anything. The Guide are infinite in knowledge, was charged to
                             providing solutions so that they are able to provide care and comfort in anything.

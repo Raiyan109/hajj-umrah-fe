@@ -25,7 +25,7 @@ export default function Testimonials() {
 
     return (
         <section
-            className="py-16 relative overflow-hidden"
+            className="py-20 relative overflow-hidden"
             style={{
                 background: "linear-gradient(160deg, #1a0f00 0%, #2d1f00 25%, #1a1200 50%, #0d0a05 100%)",
             }}
@@ -35,7 +35,7 @@ export default function Testimonials() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-2xl md:text-4xl font-bold text-white mb-8"
+                    className="text-2xl md:text-5xl font-bold text-white mb-8"
                 >
                     What's our Client say
                 </motion.h2>
@@ -57,7 +57,7 @@ export default function Testimonials() {
                                         {testimonials[current].name[0]}
                                     </div>
                                     <div>
-                                        <p className="font-bold text-gray-900 text-sm">{testimonials[current].name}</p>
+                                        <p className="font-bold text-gray-900 text-lg">{testimonials[current].name}</p>
                                         <div className="flex gap-0.5 mt-0.5">
                                             {Array(testimonials[current].rating).fill(0).map((_, s) => (
                                                 <svg key={s} className="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -67,7 +67,7 @@ export default function Testimonials() {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="text-gray-600 text-sm leading-relaxed">
+                                <p className="text-gray-600 text-lg leading-relaxed">
                                     {testimonials[current].text}
                                 </p>
                             </motion.div>
@@ -90,10 +90,11 @@ export default function Testimonials() {
                     <div className="hidden md:flex w-64 h-64 rounded-xl overflow-hidden relative flex-shrink-0 items-center justify-center"
                         style={{ background: "linear-gradient(135deg, #2d1a0a 0%, #1a0f00 100%)" }}
                     >
-                        <div className="text-center">
+                        {/* <div className="text-center">
                             <div className="text-6xl mb-3">🤲</div>
                             <p className="text-yellow-400/60 text-xs">Pilgrim Stories</p>
-                        </div>
+                        </div> */}
+                        <img src="/pilgrims.png" alt="" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
